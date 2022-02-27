@@ -43,6 +43,7 @@ class GoogleNews:
         return entries
 
     def __scaping_bee_request(self, api_key, url):
+        print("TEST AM I GETING THE NEW FILE")
         response = requests.get(
             url="https://app.scrapingbee.com/api/v1/",
             params={
