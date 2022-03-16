@@ -50,8 +50,7 @@ class GoogleNews:
                 "api_key": api_key,
                 "url": url,
                 "render_js": "false"
-                #,
-                #"custom_google":"True"
+                "custom_google":"True"
             }
         )
         if response.status_code == 200:
